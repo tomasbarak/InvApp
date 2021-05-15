@@ -3,10 +3,11 @@
 
 }
 body{
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
     display: flex;
     height: 100vh;
+    flex-direction: column;
 }
 #bottomNav{
     display: flex;
