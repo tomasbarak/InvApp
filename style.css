@@ -14,16 +14,17 @@ body{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color: #f5f5f5;
-    height: 8%;
+    height: 100px;
 }
 #dataCont{
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     background-color: #ececec;
-    height: 61.5%; width: 90%;
-    bottom: 16%; left: 5%;
+    height: 91%; width: 100%;
+    margin-bottom: 10%;
+    margin-left: 25px;
+    margin-right: 25px;
     border-radius: 25px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
