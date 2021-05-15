@@ -18,15 +18,32 @@ body{
 }
 #dataCont{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: flex-end;
-    background-color: #ececec;
-    height: 91%; width: 100%;
-    margin-bottom: 10%;
+    background-color: #f3f3f3;
+    height: 100%; width: 100%;
+    margin-bottom: 0;
     margin-left: 25px;
     margin-right: 25px;
     border-radius: 25px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+#data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.dataFormat{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
 }
