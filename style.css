@@ -1,8 +1,12 @@
+html{
+    height: 100%;
+}
 body{
+    display: flex;
+    flex: 1;
     align-items: center;
     justify-content: flex-end;
-    display: flex;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
 }
 #bottomNav{
